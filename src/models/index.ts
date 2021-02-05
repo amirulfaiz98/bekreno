@@ -30,3 +30,6 @@ export * from './user-application.model';
 export * from './application-project.model';
 export * from './note.model';
 export * from './repository-note.model';
+export * from './user-note.model';
+export * from './tags.model';
+export * from './taging.model';

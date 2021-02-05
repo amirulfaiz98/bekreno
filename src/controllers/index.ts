@@ -41,4 +41,6 @@ export * from './user-repository.controller';
 export * from './user-role.controller';
 export * from './user.controller';
 export * from './zone.controller';
-
+export * from './user-note.controller';
+export * from './tags.controller';
+export * from './repository-tags.controller';

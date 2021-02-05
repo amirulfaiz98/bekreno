@@ -10,6 +10,7 @@ export async function migrate(args: string[]) {
     existingSchema,
     models: [
       'User',
+      'UserNote',
       'Credential',
       'Email',
       'EmailTemplate',
@@ -36,6 +37,8 @@ export async function migrate(args: string[]) {
       'Application',
       'UserApplication',
       'ApplicationProject',
+      'Tags',
+      'Taging',
       'Note'
     ],
   });
